@@ -40,8 +40,7 @@
                                 height="93"
                                 viewBox="0 0 93 93"
                                 fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                >
+                                xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="2.5" cy="2.5" r="2.5" fill="#149414"/>
                                 <circle cx="2.5" cy="24.5" r="2.5" fill="#149414"/>
                                 <circle cx="2.5" cy="46.5" r="2.5" fill="#149414"/>

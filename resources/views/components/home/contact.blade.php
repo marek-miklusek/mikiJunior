@@ -160,7 +160,6 @@
                             </x-form.button>
                         </div>
                     </form>
-                    {{-- Form --}}
 
                     {{-- Dots and quarter circle --}}
                     <div>

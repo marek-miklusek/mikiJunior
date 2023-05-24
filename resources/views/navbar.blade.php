@@ -1,5 +1,4 @@
 <header x-data="{ navbarOpen: false }" class="fixed left-0 top-0 z-50 w-full flex items-center bg-gradient-to-r from-[#000] via-[#000] to-[#149414] h-24">
-
     <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
 
@@ -13,16 +12,16 @@
             <div class="flex px-4 justify-end items-center w-full">
                 <div>
 
-                    <x-navbar.navbar-hamburger @click="navbarOpen = !navbarOpen"
+                    <x-navbar-hamburger @click="navbarOpen = !navbarOpen"
                         x-bind:class="navbarOpen && 'navbarTogglerActive'">
-                    </x-navbar.navbar-hamburger>
+                    </x-navbar-hamburger>
 
                     <nav :class="!navbarOpen && 'hidden'" id="navbarCollapse"
                         class="absolute right-0 top-full py-5 px-6 z-50 w-full bg-gradient-to-r from-[#000] via-[#000] to-[#149414] 
                             lg:px-0 lg:max-w-full lg:w-full lg:right-4 lg:block lg:static rounded-3xl">
                         <ul class="block lg:flex lg:items-center">
                             @foreach ($navigation_items as $item)
-                                <x-navbar.navbar-item :href="$item['href']">{{ $item['label'] }}</x-navbar.navbar-item>
+                                <x-navbar-items :href="$item['href']">{{ $item['label'] }}</x-navbar-items>
                             @endforeach
                             <div class="ml-0 lg:ml-10 xl:ml-16"></div>
                         </ul>

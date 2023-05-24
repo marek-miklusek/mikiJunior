@@ -10,7 +10,7 @@
     <body class="bg-[#000]">
 
         <div class="pt-24">
-            <x-navbar.navbar></x-navbar.navbar>
+            <x-navbar></x-navbar>
             {{ $slot }}
             <x-footer></x-footer>
         </div>

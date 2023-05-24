@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components\Navbar;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
@@ -29,6 +29,6 @@ class Navbar extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('navbar.navbar');
+        return view('navbar');
     }
 }

@@ -16,7 +16,7 @@ class ContactController extends Controller
             'message' => 'required'
         ]);
 
-        Mail::to('marek.miklusek@centrum.sk')
+        Mail::to('marek.miklusek@gmail.com')
             ->send(new ContactMail($validated['name'], $validated['email'], $validated['message']));
 
         return $request->all();

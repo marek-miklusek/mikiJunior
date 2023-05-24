@@ -8,7 +8,6 @@
             items-center
             justify-center
             rounded-full
-            border
             border-2
             border-white
             text-white
@@ -32,7 +31,6 @@
             items-center
             justify-center
             rounded-full
-            border
             border-2
             border-white
             text-white
@@ -56,7 +54,6 @@
             items-center
             justify-center
             rounded-full
-            border
             border-2
             border-white
             text-white
