@@ -25,7 +25,7 @@
                                 src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-1.jpg"
                                 alt=""
                                 class="rounded-2xl w-full"/>
-                            <x-about-dots></x-about-dots>
+                            <x-about-dots />
                         </div>
                     </div>
                 </div>
@@ -35,17 +35,17 @@
                 <div class="mt-10 lg:mt-0">
                     <span class="text-lg text-body-color mb-2 block">
                         <blockquote class="text-sm font-semibold italic py-2 px-3 border-l-2">
-                            "A day without laughter is a day wasted"
+                            "{{ __('messages.about-quote') }}"
                         </blockquote>
                     </span>
                     <h2 class="font-bold text-3xl sm:text-4xl text-amber-600 mb-8">
-                        About Me
+                        {{ __('messages.about-me') }}
                     </h2>
                     <p class="text-base mb-8">
-                        Hello everyone, right from the start, I must confess to you what my relationship with programming is like :<span class="text-amber-600 font-bold">)</span> Throughout my life, I have been searching for a profession and for the first time ever, I have discovered something that I instantly <span class="text-amber-600 font-bold">fell in love</span> with at first sight and that I know I will do for the rest of my life, regardless of whether I make a living from programming or not.
+                        {{ __('messages.about-text-first') }}
                     </p>
                     <p class="text-base mb-8">
-                        So, if you want to add an immensely enthusiastic, joyfully learning, clever and last but not least positive person to your ranks, don't hesitate and give me a chance<span class="text-amber-600 font-bold"> - you won't regret it :)</span>
+                        {{ __('messages.about-text-second') }}
                     </p>
                 </div>
             </div>
@@ -55,5 +55,4 @@
 </section>
 
   
-
   

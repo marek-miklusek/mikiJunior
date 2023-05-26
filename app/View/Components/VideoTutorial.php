@@ -18,8 +18,8 @@ class VideoTutorial extends Component
         $this->video_tutorials = [
             [
                 'video_id' => 'LULd0858mUQ',
-                'title' => 'HTML and CSS Tutorial for Absolute Beginners',
-                'description' => 'This video was the first one I saw, and it immediately captivated me, and I knew that this was it.'
+                'title' => __('messages.title-first'),
+                'description' => __('messages.description-first')
             ],
             [
                 'video_id' => 'hpfVMPCR3xA',

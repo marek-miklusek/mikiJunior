@@ -6,10 +6,10 @@
                 <div class="max-w-[570px] mb-12 lg:mb-0">
 
                     <h2 class="text-slate-800 mb-6 uppercase font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                        CONTACT ME
+                        {{ __('messages.contact-heading') }}
                     </h2>
                     <p class="text-base text-body-color leading-relaxed mb-9">
-                        "Code is like humor. When you have to explain it, it’s bad"
+                        "{{ __('messages.contact-quote') }}"
                     </p>
 
                     {{-- Phone number --}}
@@ -30,7 +30,7 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="text-dark mb-1 text-xl font-bold">Phone Number</h4>
+                            <h4 class="text-dark mb-1 text-xl font-bold">{{ __('messages.phone') }}</h4>
                             <p class="text-body-color text-base">+421915435268</p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="w-full">
                             <h4 class="font-bold text-dark text-xl mb-1">
-                                Email Address
+                                {{ __('messages.email') }}
                             </h4>
                             <p class="text-base text-body-color">marek.miklusek@gmail.com</p>
                         </div>
@@ -125,7 +125,7 @@
                         @csrf
                         {{-- Name --}}
                         <div class="mb-6">
-                            <x-form.input placeholder="Your Name" name="name" x-model="formData.name" 
+                            <x-form.input placeholder="{{ __('messages.form-name') }}" name="name" x-model="formData.name" 
                                 ::class="errors.name ? 'border-red-500' : '' ">
                             </x-form.input>
                             {{-- Error message --}}
@@ -135,7 +135,7 @@
                         </div>
                         {{-- Email --}}
                         <div class="mb-6">
-                            <x-form.input type="email" placeholder="Your Email" name="email" x-model="formData.email" 
+                            <x-form.input type="email" placeholder="{{ __('messages.form-email') }}" name="email" x-model="formData.email" 
                                 ::class="errors.email ? 'border-red-500' : '' ">
                             </x-form.input>
                             {{-- Error message --}}
@@ -145,7 +145,7 @@
                         </div>
                         {{-- Textarea --}}
                         <div class="mb-6">
-                            <x-form.textarea placeholder="Your Message" name="message" rows="6" x-model="formData.message" 
+                            <x-form.textarea placeholder="{{ __('messages.form-message') }}" name="message" rows="6" x-model="formData.message" 
                                 ::class="errors.message ? 'border-red-500' : '' ">
                             </x-form.textarea>
                             {{-- Error message --}}
@@ -156,7 +156,7 @@
 
                         <div>
                             <x-form.button class="w-full" variant="primary">
-                                Send Message
+                                {{ __('messages.form-submit') }}
                             </x-form.button>
                         </div>
                     </form>
@@ -177,8 +177,8 @@
                                     fill="#149414"/>
                             </svg>
                         </span>
-                        <x-contact-dots-top></x-contact-dots-top>
-                        <x-contact-dots-bottom></x-contact-dots-bottom>
+                        <x-contact-dots-top />
+                        <x-contact-dots-bottom />
                     </div>
                 
                 </div>

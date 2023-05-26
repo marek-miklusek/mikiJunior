@@ -5,25 +5,25 @@
             {{-- Introduction--}}
             <div class="w-full lg:w-5/12 px-4">
                 <div class="hero-content">
-                    <h1 class="text-xl text-[#9ca3af]">Hi, my name is Marek Miklusek</h1>
+                    <h1 class="text-xl text-[#9ca3af]">{{ __('messages.name') }}</h1>
                     <h1 class="font-bold text-3xl sm:text-[42px] lg:text-[40px] xl:text-[42px] mb-10 pt-4">
-                        I Love
-                        <span x-data="{ texts: ['Coding', 'Learning'] }" x-typewriter.2s="texts" class="text-amber-600"></span>
+                        {{ __('messages.ilove') }}
+                        <span x-data="{ texts: ['{{ __('messages.coding') }}', '{{ __('messages.learning') }}'] }" x-typewriter.1s="texts" class="text-amber-600"></span>
                         <span class="blink-cursor"></span>
                     </h1>
                     <ul class="flex flex-wrap items-center">
                         <li>
                             <x-button-link href="#portfolio" variant="outline-primary" class="rounded-lg">
-                                My Projects
+                                {{ __('messages.myprojects') }}
                             </x-button-link>
                         </li>
                     </ul>
                     <div class="clients pt-16">
                         <h6 class="font-normal text-md flex items-center text-[#1e293b] mb-4">
-                            Check my social media
+                            {{ __('messages.social-media') }}
                             <span class="w-8 h-[1px] inline-block ml-2 bg-[#1e293b]"></span>
                         </h6>
-                        <x-social-icons></x-social-icons>
+                        <x-social-icons />
                     </div>
                 </div>
             </div>

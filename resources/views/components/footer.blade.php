@@ -3,9 +3,9 @@
     <div class="container">
         <div class="flex flex-wrap justify-between">
             <span class="inline-flex items-center text-xl text-[#1e293b] mb-2 md:mb-0">
-                Check my social media
+                {{ __('messages.social-media') }}
             </span>
-            <x-social-icons class="mb-0"></x-social-icons>
+            <x-social-icons class="mb-0" />
         </div>
     </div>
 

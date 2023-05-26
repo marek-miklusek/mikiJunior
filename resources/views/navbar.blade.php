@@ -5,13 +5,13 @@
             <div class="pr-4 w-60 max-w-full">
                 <a href="#" class="w-full flex items-center py-2">
                     <img src="{{ url('/img/logo.jpg') }}" alt="logo" class="w-[48px] lg:w-[64px] rounded mr-2 animate-pulse"/>
-                    <span class="text-lg xl:text-xl font-bold text-[#9ca3af]">mikiJunior</span>
+                    <span class="text-lg xl:text-xl font-bold text-[#9ca3af]">@mikiJunior</span>
                 </a>
             </div>
 
             <div class="flex px-4 justify-end items-center w-full">
                 <div>
-
+                  
                     <x-navbar-hamburger @click="navbarOpen = !navbarOpen"
                         x-bind:class="navbarOpen && 'navbarTogglerActive'">
                     </x-navbar-hamburger>
@@ -23,8 +23,10 @@
                             @foreach ($navigation_items as $item)
                                 <x-navbar-items :href="$item['href']">{{ $item['label'] }}</x-navbar-items>
                             @endforeach
+                            <x-dropdown-lang />
                             <div class="ml-0 lg:ml-10 xl:ml-16"></div>
                         </ul>
+                      
                     </nav>
 
                 </div>

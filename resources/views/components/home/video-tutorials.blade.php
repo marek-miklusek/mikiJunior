@@ -5,10 +5,10 @@
             <div class="w-full px-4">
                 <div class="text-center mx-auto mb-[60px] max-w-[510px]">
                     <h2 class="font-bold text-3xl text-amber-600 mb-4">
-                        Coding tutorials
+                        {{ __('messages.coding-heading') }}
                     </h2>
                     <p class="text-base text-white">
-                        "You can't just wish for a better life, you must go out there and create it" 
+                        "{{ __('messages.tutorials-quote') }}" 
                     </p>
                 </div>
             </div>
@@ -18,8 +18,7 @@
             @foreach($video_tutorials as $video)
                 <x-video-tutorial-items 
                     :video-id="$video['video_id']" :title="$video['title']"
-                    :description="$video['description']">
-                </x-video-tutorial-items>
+                    :description="$video['description']" />
             @endforeach
         </div>
 

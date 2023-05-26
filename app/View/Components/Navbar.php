@@ -9,6 +9,7 @@ use Illuminate\View\Component;
 class Navbar extends Component
 {
     public array $navigation_items = [];
+    public array $navigation_items_sk = [];
 
     /**
      * Create a new component instance.
@@ -16,10 +17,10 @@ class Navbar extends Component
     public function __construct()
     {
         $this->navigation_items = [
-            ['label' => 'About', 'href' => '#about'],
-            ['label' => 'Projects', 'href' => '#portfolio'],
-            ['label' => 'Coding tutorials', 'href' => '#tutorials'],
-            ['label' => 'Contact', 'href' => '#contact'],
+            ['label' => __('messages.about'), 'href' => '#about'],
+            ['label' => __('messages.projects'), 'href' => '#portfolio'],
+            ['label' => __('messages.coding-heading'), 'href' => '#tutorials'],
+            ['label' => __('messages.contact'), 'href' => '#contact'],
         ];
     }
 
