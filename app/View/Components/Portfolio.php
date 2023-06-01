@@ -17,8 +17,8 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'title' => 'Manicure pedicure salon website',
-                'image' => url('/img/matreshka.png'),
+                'title' => 'Code Chronicles',
+                'image' => url('/img/codechronicles.png'),
                 'github' => 'https://github.com/marek-miklusek/matreshka-laravel'
             ],
             [

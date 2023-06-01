@@ -1,4 +1,4 @@
-<section id="portfolio" class="pt-20 lg:pt-[90px] pb-12 lg:pb-[90px] bg-gradient-to-r from-[#000] via-[#000] to-[#149414] ">
+<section id="portfolio" class="pt-20 lg:pt-[90px] pb-12 lg:pb-[90px] bg-gradient-to-r from-[#000] via-[#1a1a1a] to-[#149414] ">
     <div class="container">
 
         <div class="flex flex-wrap -mx-4">

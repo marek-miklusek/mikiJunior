@@ -1,4 +1,4 @@
-<section id="tutorials" class="pt-24 pb-16 bg-gradient-to-r from-[#000] via-[#000] to-[#149414]">
+<section id="tutorials" class="pt-24 pb-16 bg-gradient-to-r from-[#000] via-[#1a1a1a] to-[#149414]">
     <div class="container">
 
         <div class="flex flex-wrap -mx-4">

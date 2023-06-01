@@ -1,14 +1,15 @@
-<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-gradient-to-r from-[#149414] via-[#000] to-[#000] text-white">
+<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-gradient-to-r from-[#149414] via-[#1a1a1a] to-[#000] text-white">
     <div class="container">
         <div class="flex flex-wrap -mx-4">
-
+            
             {{-- Introduction--}}
             <div class="w-full lg:w-5/12 px-4">
                 <div class="hero-content">
                     <h1 class="text-xl text-[#9ca3af]">{{ __('messages.name') }}</h1>
-                    <h1 class="font-bold text-3xl sm:text-[42px] lg:text-[40px] xl:text-[42px] mb-10 pt-4">
+                    <h1 class="w-full h-10 font-bold text-3xl sm:text-[42px] lg:text-[40px] xl:text-[42px] mb-[5rem] pt-4">
                         {{ __('messages.ilove') }}
-                        <span x-data="{ texts: ['{{ __('messages.coding') }}', '{{ __('messages.learning') }}'] }" x-typewriter.1s="texts" class="text-amber-600"></span>
+                        <span x-data="{ texts: ['{{ __('messages.coding') }}', '{{ __('messages.learning') }}'] }" 
+                            x-typewriter.1s="texts" class="text-amber-600 border-b-[1px]"></span>
                         <span class="blink-cursor"></span>
                     </h1>
                     <ul class="flex flex-wrap items-center">

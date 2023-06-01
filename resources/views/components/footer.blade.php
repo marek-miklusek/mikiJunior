@@ -1,4 +1,4 @@
-<footer class="bg-gradient-to-r from-[#149414] via-[#000] to-[#000] py-8 relative z-10">
+<footer class="bg-gradient-to-r from-[#149414] via-[#1a1a1a] to-[#000] py-8 relative z-10">
 
     <div class="container">
         <div class="flex flex-wrap justify-between">

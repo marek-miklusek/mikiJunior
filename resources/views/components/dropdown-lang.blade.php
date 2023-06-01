@@ -1,9 +1,9 @@
 <div class="relative" x-data="{ open: false }" @click.outside="open = false" @close.stop="open = false">
 
-    <div @click="open = ! open">
+    <div @click="open = !open">
         <button class="hover:bg-[#149414] hover:text-white flex items-center rounded my-2 lg:py-2 lg:px-4 lg:ml-6">
-            <span class="fi fi-us {{ session()->get('locale') == 'en' ? 'block' : 'hidden' }}"></span>
-            <span class="fi fi-sk {{ session()->get('locale') == 'sk' ? 'block' : 'hidden' }}"></span>
+            <span class="fi fi-us {{ App::currentLocale() == 'en' ? 'block' : 'hidden' }}"></span>
+            <span class="fi fi-sk {{ App::currentLocale() == 'sk' ? 'block' : 'hidden' }}"></span>
             <div class="ml-1">
                 <svg class="fill-white h-4 w-4" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20">

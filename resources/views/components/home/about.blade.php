@@ -1,4 +1,4 @@
-<section id="about" class="bg-gradient-to-r from-[#000] via-[#000] to-[#149414] text-white pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
+<section id="about" class="bg-gradient-to-r from-[#000] via-[#1a1a1a] to-[#149414] text-white pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
     <div class="container">
         <div class="flex flex-wrap justify-between items-center -mx-4">
 
@@ -42,10 +42,11 @@
                         {{ __('messages.about-me') }}
                     </h2>
                     <p class="text-base mb-8">
-                        {{ __('messages.about-text-first') }}
+                        {{ __('messages.about-text-first') }}<span class="text-amber-600 font-bold">{{ __('messages.fellinlove') }}</span>
+                        {{ __('messages.about-text-second') }}
                     </p>
                     <p class="text-base mb-8">
-                        {{ __('messages.about-text-second') }}
+                        {{ __('messages.about-text-third') }}
                     </p>
                 </div>
             </div>

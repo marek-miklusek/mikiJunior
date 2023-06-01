@@ -18,18 +18,18 @@ class VideoTutorial extends Component
         $this->video_tutorials = [
             [
                 'video_id' => 'LULd0858mUQ',
-                'title' => __('messages.title-first'),
-                'description' => __('messages.description-first')
+                'title' => __('messages.tutorials-title-first'),
+                'description' => __('messages.tutorials-description-first')
             ],
             [
-                'video_id' => 'hpfVMPCR3xA',
-                'title' => 'Flying over canada (4K)',
-                'description' => 'Relaxing Music With Stunning Beautiful Nature. Nature is not a place to visit, it is home, i love it there.'
+                'video_id' => 'MYyJ4PuL4pY',
+                'title' => __('messages.tutorials-title-second'),
+                'description' => __('messages.tutorials-description-second')
             ],
             [
-                'video_id' => 'ZDpQQj3r_W8',
-                'title' => 'The Tourminator Peter Sagan',
-                'description' => 'I love sports, tourism, fitness, cycling and all the others, it fills me with immense energy and happiness.'
+                'video_id' => 'OK_JCtrrv-c',
+                'title' => __('messages.tutorials-title-third'),
+                'description' => __('messages.tutorials-description-third')
             ],
         ];
     }

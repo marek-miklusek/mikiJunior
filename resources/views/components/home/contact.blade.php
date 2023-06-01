@@ -73,7 +73,7 @@
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
 
-                    {{-- Form --}}
+                    {{-- Form AlpineJs--}}
                     <form action="/contact/submit" method="POST" x-data="{
                         formData: {
                             name: '',
@@ -107,7 +107,7 @@
                                         email: '',
                                         message: '',
                                     };
-                                    this.successMessage = 'Thank you for your message. I will get back to you shortly.';
+                                    this.successMessage = '{{ __('messages.form-success') }}';
                                 })
                                 .catch(async(response) => {
                                     const res = await response.json();
