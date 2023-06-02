@@ -118,10 +118,10 @@
                                 })
                             }
                         }" x-on:submit.prevent="submitForm">
-                        {{-- Success message --}}
+                        {{-- Success message
                         <template x-if="successMessage">
                             <div x-text="successMessage" class="py-4 px-6 bg-green-600 text-white mb-4"></div>
-                        </template>
+                        </template> --}}
                         @csrf
                         {{-- Name --}}
                         <div class="mb-6">
@@ -159,6 +159,10 @@
                                 {{ __('messages.form-submit') }}
                             </x-form.button>
                         </div>
+                           {{-- Success message --}}
+                           <template x-if="successMessage">
+                            <div x-text="successMessage" class="py-4 px-6 bg-green-600 text-white mb-4"></div>
+                        </template>
                     </form>
 
                     {{-- Dots and quarter circle --}}
