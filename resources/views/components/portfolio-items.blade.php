@@ -2,7 +2,7 @@
 
     <a href="{{ $github }}" target="_blank">
         <div class="rounded-lg overflow-hidden ease-in duration-100 hover:scale-105">
-            <img src="{{ $image }}" alt="portfolio image" class="h-auto object-cover"/>
+            <img src="{{ $image }}" alt="portfolio image" class="object-contain"/>
         </div>
     </a>
 

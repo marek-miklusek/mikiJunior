@@ -33,7 +33,7 @@
 
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="mt-10 lg:mt-0">
-                    <span class="text-lg text-body-color mb-2 block">
+                    <span class="text-lg text-[#9ca3af] mb-2 block">
                         <blockquote class="text-sm font-semibold italic py-2 px-3 border-l-2">
                             "{{ __('messages.about-quote') }}"
                         </blockquote>

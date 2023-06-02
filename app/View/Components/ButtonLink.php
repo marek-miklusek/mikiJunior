@@ -11,7 +11,7 @@ class ButtonLink extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct(public string $href, public string $variant, public string $target = '_blanket')
+    public function __construct(public string $href, public string $variant, public string $target = '_self')
     {
         //
     }
