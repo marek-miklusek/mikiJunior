@@ -6,7 +6,7 @@
                 <a href="#" class="w-full flex items-center py-2">
                     <img src="{{ url('/img/logo.jpg') }}" alt="logo" class="w-[48px] lg:w-[64px] rounded mr-2 animate-pulse"/>
                     <h2 class="text-lg xl:text-xl font-bold pl-4 text-[#9ca3af]">
-                        @mikijunior
+                        mikijunior
                     </h2>
                 </a>
             </div>
