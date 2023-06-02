@@ -21,7 +21,7 @@
         </div>
 
         <div class="text-center">
-            <x-button-link href="https://github.com/marek-miklusek" variant="amber" target="_blank" class="rounded-lg animate-bounce">
+            <x-button-link href="https://github.com/marek-miklusek" variant="amber-full" target="_blank" class="rounded-lg animate-bounce">
                 {{ __('messages.view-all') }}
             </x-button-link>
         </div>

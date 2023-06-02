@@ -19,11 +19,11 @@ class Portfolio extends Component
             [
                 'title' => 'Code Chronicles',
                 'image' => url('/img/codechronicles.png'),
-                'github' => 'https://github.com/marek-miklusek/matreshka-laravel'
+                'github' => 'https://codechronicles.eu'
             ],
             [
                 'title' => 'Blog system',
-                'image' => url('/img/blog.png'),
+                'image' => url('/img/laravel.webp'),
                 'github' => 'https://github.com/marek-miklusek/blog-laravel'
             ],
         ];

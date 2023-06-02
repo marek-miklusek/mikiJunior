@@ -2,7 +2,7 @@
 
     <div class="container">
         <div class="flex flex-wrap justify-between">
-            <span class="inline-flex items-center text-xl text-[#1e293b] mb-2 md:mb-0">
+            <span class="inline-flex items-center text-xl text-[#9ca3af] mb-2 md:mb-0">
                 {{ __('messages.social-media') }}
             </span>
             <x-social-icons class="mb-0" />

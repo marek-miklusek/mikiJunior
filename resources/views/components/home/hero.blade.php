@@ -14,15 +14,15 @@
                     </h1>
                     <ul class="flex flex-wrap items-center">
                         <li>
-                            <x-button-link href="#portfolio" variant="outline-primary" class="rounded-lg">
+                            <x-button-link href="#portfolio" variant="amber" class="rounded-lg">
                                 {{ __('messages.myprojects') }}
                             </x-button-link>
                         </li>
                     </ul>
                     <div class="clients pt-16">
-                        <h6 class="font-normal text-md flex items-center text-[#1e293b] mb-4">
+                        <h6 class="font-normal text-md flex items-center text-[#9ca3af] mb-4">
                             {{ __('messages.social-media') }}
-                            <span class="w-8 h-[1px] inline-block ml-2 bg-[#1e293b]"></span>
+                            <span class="w-8 h-[1px] inline-block ml-2 bg-[#9ca3af]"></span>
                         </h6>
                         <x-social-icons />
                     </div>
