@@ -2,15 +2,16 @@
 
 <table>
     <tr>
-        <th>Name</th>
+        <th>Name:</th>
         <td>{{ $name }}</td>
     </tr>
     <tr>
-        <th>Email</th>
+        <th>Email:</th>
         <td>{{ $email }}</td>
+    </tr>
+    <tr>
+        <th>Message:</th>
+        <td>{{ $body }}</td>
     </tr>
 </table>
 
-<div>
-    {{ $body }}
-</div>

@@ -126,7 +126,7 @@
                         {{-- Name --}}
                         <div class="mb-6">
                             <x-form.input placeholder="{{ __('messages.form-name') }}" name="name" x-model="formData.name" 
-                                ::class="errors.name ? 'border-red-500' : '' ">
+                                ::class="errors.name ? 'border-red-500' : '' " class="text-black">
                             </x-form.input>
                             {{-- Error message --}}
                             <template x-if="errors.name">
@@ -136,7 +136,7 @@
                         {{-- Email --}}
                         <div class="mb-6">
                             <x-form.input type="email" placeholder="{{ __('messages.form-email') }}" name="email" x-model="formData.email" 
-                                ::class="errors.email ? 'border-red-500' : '' ">
+                                ::class="errors.email ? 'border-red-500' : '' " class="text-black">
                             </x-form.input>
                             {{-- Error message --}}
                             <template x-if="errors.email">
@@ -146,7 +146,7 @@
                         {{-- Textarea --}}
                         <div class="mb-6">
                             <x-form.textarea placeholder="{{ __('messages.form-message') }}" name="message" rows="6" x-model="formData.message" 
-                                ::class="errors.message ? 'border-red-500' : '' ">
+                                ::class="errors.message ? 'border-red-500' : '' " class="text-black">
                             </x-form.textarea>
                             {{-- Error message --}}
                             <template x-if="errors.message">
