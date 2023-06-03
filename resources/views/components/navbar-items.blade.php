@@ -1,5 +1,5 @@
 <li>
-    <a href="{{ $href }}" class="text-sm font-medium text-white py-2 flex lg:inline-flex lg:ml-6 xl:ml-12
+    <a href="{{ $href }}" @click="navbarOpen = false" class="text-sm font-medium text-white py-2 flex lg:inline-flex lg:ml-6 xl:ml-12
         {{-- Hover underline --}}
         relative
         transition-all

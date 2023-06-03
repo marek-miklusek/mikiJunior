@@ -16,7 +16,7 @@
 
         <div class="flex flex-wrap justify-center gap-4 -mx-4">
             @foreach ($items as $item)
-                <x-portfolio-items :title="$item['title']" :image="$item['image']" :github="$item['github']" />
+                <x-portfolio-items :title="$item['title']" :image="$item['image']" :github="$item['github']" :description="$item['description']" />
              @endforeach
         </div>
 

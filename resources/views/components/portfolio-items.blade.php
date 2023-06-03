@@ -10,6 +10,7 @@
         <h3 class="font-bold text-lg text-white dark:text-gray-300 mb-4">
             {{ $title }}
         </h3>
+        <div class="text-[#9ca3af] mb-4">{{ $description }}</div>
         <x-button-link :href="$github" variant="primary">{{ __('messages.view-details') }}</x-button-link>
     </div>
 
