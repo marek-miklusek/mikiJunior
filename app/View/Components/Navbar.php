@@ -9,7 +9,6 @@ use Illuminate\View\Component;
 class Navbar extends Component
 {
     public array $navigation_items = [];
-    public array $navigation_items_sk = [];
 
     /**
      * Create a new component instance.

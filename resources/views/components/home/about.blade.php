@@ -7,13 +7,13 @@
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="py-3 sm:py-4">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-1.jpg"
+                                src="{{ url('/img/love1.jpg') }}"
                                 alt=""
                                 class="rounded-2xl w-full"/>
                         </div>
                         <div class="py-3 sm:py-4">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-1.jpg"
+                                src="{{ url('/img/love2.jpg') }}"
                                 alt=""
                                 class="rounded-2xl w-full"/>
                         </div>
@@ -22,7 +22,7 @@
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="my-4 relative z-10">
                             <img
-                                src="https://cdn.tailgrids.com/2.0/image/marketing/images/about/about-01/image-1.jpg"
+                                src="{{ url('/img/love3.jpeg') }}"
                                 alt=""
                                 class="rounded-2xl w-full"/>
                             <x-about-dots />
