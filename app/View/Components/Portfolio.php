@@ -24,7 +24,7 @@ class Portfolio extends Component
             ],
             [
                 'title' => 'Movies and Tv Shows',
-                'description' => 'Netflix clone, where you can watch only the trailer',
+                'description' => 'Imitation of Netflix, where you can watch trailers and more',
                 'image' => url('/img/netflix.png'),
                 'link' => 'https://moviestvshows.fun'
             ],
