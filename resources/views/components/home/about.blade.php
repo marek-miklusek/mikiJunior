@@ -6,22 +6,16 @@
                 <div class="flex items-center -mx-3 sm:-mx-4">
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('img/about.jpeg') }}"
-                                alt=""
-                                class="rounded-2xl w-full"/>
+                            <img src="{{ url('img/about.jpeg') }}" alt="image of code" class="rounded-2xl w-full"/>
                         </div>
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('img/about1.jpeg') }}"
-                                alt=""
-                                class="rounded-2xl w-full"/>
+                            <img src="{{ url('img/about1.jpeg') }}" alt="image of code" class="rounded-2xl w-full"/>
                         </div>
                     </div>
 
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="my-4 relative z-10">
-                            <img src="{{ url('img/about2.jpeg') }}"
-                                alt=""
-                                class="rounded-2xl w-full"/>
+                            <img src="{{ url('img/about2.jpeg') }}" alt="image of code" class="rounded-2xl w-full"/>
                             <x-about-dots />
                         </div>
                     </div>
