@@ -3,5 +3,5 @@
     <x-home.about />
     <x-portfolio />
     <x-video-tutorial />
-    <x-home.contact />
+    {{-- <x-home.contact /> --}}
 </x-master>
